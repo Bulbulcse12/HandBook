@@ -1,0 +1,1 @@
+E:\AppDev\HandBook\new\HandBookProject\HandBookProject\HandBook\HandBook\HandBook.csproj;x64

@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\pages\\userhome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\userhome.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\handbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\handbook.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\pages\\phoneverification.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\phoneverification.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\components\\pages\\verifycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\verifycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|e:\\appdev\\handbook\\updated\\handbook-main\\handbook-main\\handbook\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 143,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\Home.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T10:51:22.227Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhoneVerification.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:35:54.992Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUser.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\RegisterUser.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\RegisterUser.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\RegisterUser.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\RegisterUser.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:36:41.945Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Routes.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Routes.razor",
+              "RelativeToolTip": "HandBook\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T12:42:31.144Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\Login.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\Login.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T10:40:10.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HandBook",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\HandBook.csproj",
+              "RelativeDocumentMoniker": "HandBook\\HandBook.csproj",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\HandBook.csproj",
+              "RelativeToolTip": "HandBook\\HandBook.csproj",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwB0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T08:44:46.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserHome.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\UserHome.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\UserHome.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\UserHome.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\UserHome.razor",
+              "ViewState": "AQIAANkAAAAAAAAAAAAAwOQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-20T07:21:15.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "HandBook\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T13:37:36.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAmwNUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-18T10:39:21.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "HandBook\\wwwroot\\index.html",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\wwwroot\\index.html",
+              "RelativeToolTip": "HandBook\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-17T15:01:44.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "auth.css",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\wwwroot\\css\\auth.css",
+              "RelativeDocumentMoniker": "HandBook\\wwwroot\\css\\auth.css",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\wwwroot\\css\\auth.css",
+              "RelativeToolTip": "HandBook\\wwwroot\\css\\auth.css",
+              "ViewState": "AQIAAEkAAAAAAAAAAAApwD8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-17T15:00:57.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.css",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "HandBook\\wwwroot\\css\\app.css",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "HandBook\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-17T14:57:28.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VerifyCode.razor",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\VerifyCode.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\VerifyCode.razor",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Components\\Pages\\VerifyCode.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\VerifyCode.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:36:16.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "HandBook\\MauiProgram.cs",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\MauiProgram.cs",
+              "RelativeToolTip": "HandBook\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T13:09:33.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "HandBook\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "HandBook\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:46:15.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HandBook\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\AppDev\\HandBook\\updated\\HandBook-main\\HandBook-main\\HandBook\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HandBook\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-12T12:43:03.174Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

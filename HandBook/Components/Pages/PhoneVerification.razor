@@ -1,0 +1,52 @@
+﻿@page "/verify"
+@inject NavigationManager NavigationManager
+
+<br />
+<div class="auth-container">
+    <div class="auth-header">
+        <img src="images/logo.png" alt="HandBook Logo" class="logo" />
+        <h2 style="color:#CCAD00;font-size:14px;">ভেরিফিকেশন কোডটা দিবেন </h2>
+    </div>
+
+    <div class="">
+        <div class="verification-code-container">
+            <input type="text" maxlength="1" class="code-input" />
+            <input type="text" maxlength="1" class="code-input" />
+            <input type="text" maxlength="1" class="code-input" />
+            <input type="text" maxlength="1" class="code-input" />
+            <input type="text" maxlength="1" class="code-input" />
+            <input type="text" maxlength="1" class="code-input" />
+        </div>
+
+         <button style="width: 100%; padding: 10px; background-color: #CCAD00; color: black; border: none; border-radius: 4px; font-weight: bold;"
+                @onclick="VerifyCode">
+            পরবর্তী 
+        </button>
+
+       @*  <button class="primary-button" @onclick="VerifyCode">
+            Verify
+        </button> *@
+
+        <div class="resend-code" style="font-size:12px;">
+            <span >আপনি কি কোডটি পাননি?</span>
+            <a href="#" @onclick="ResendCode">পুনরায় কোড পাঠান</a>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string phoneNumber { get; set; } = "+1 (234) 567-8910";
+
+    private void VerifyCode()
+    {
+        // In a real app, this would verify with your API
+        NavigationManager.NavigateTo("/register");
+    }
+
+    private void ResendCode()
+    {
+        // Would trigger resend logic
+    }
+}

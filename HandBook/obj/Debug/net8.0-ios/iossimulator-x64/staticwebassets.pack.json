@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\HandBook.styles.css",
+      "PackagePath": "staticwebassets\\HandBook.styles.css"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\AppDev\\HandBook\\new\\HandBookProject\\HandBookProject\\HandBook\\HandBook\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.HandBook.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.HandBook.props",
+      "PackagePath": "build\\HandBook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.HandBook.props",
+      "PackagePath": "buildMultiTargeting\\HandBook.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.HandBook.props",
+      "PackagePath": "buildTransitive\\HandBook.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

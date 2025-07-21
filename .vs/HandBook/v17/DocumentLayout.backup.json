@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\components\\pages\\verifycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\verifycode.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\components\\pages\\phoneverification.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\components\\pages\\phoneverification.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|d:\\appsdevelopment\\handbook\\handbook\\handbookproject\\handbook\\handbook\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39591B8B-7620-4AB8-A667-1EF1954810D6}|HandBook\\HandBook.csproj|solutionrelative:handbook\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 143,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T10:51:22.227Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Routes.razor",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Routes.razor",
+              "RelativeToolTip": "HandBook\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T12:42:31.144Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "HandBook\\wwwroot\\index.html",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\wwwroot\\index.html",
+              "RelativeToolTip": "HandBook\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-17T15:01:44.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "auth.css",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\auth.css",
+              "RelativeDocumentMoniker": "HandBook\\wwwroot\\css\\auth.css",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\auth.css",
+              "RelativeToolTip": "HandBook\\wwwroot\\css\\auth.css",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAiwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-17T15:00:57.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "HandBook\\wwwroot\\css\\app.css",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "HandBook\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-17T14:57:28.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterUser.razor",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\RegisterUser.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\RegisterUser.razor",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\RegisterUser.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\RegisterUser.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:36:41.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerifyCode.razor",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\VerifyCode.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\VerifyCode.razor",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\VerifyCode.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\VerifyCode.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:36:16.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PhoneVerification.razor",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "RelativeDocumentMoniker": "HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "RelativeToolTip": "HandBook\\Components\\Pages\\PhoneVerification.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T08:35:54.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "HandBook\\MauiProgram.cs",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\MauiProgram.cs",
+              "RelativeToolTip": "HandBook\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T13:09:33.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "HandBook\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "HandBook\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:46:15.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HandBook\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\AppsDevelopment\\HandBook\\HandBook\\HandBookProject\\HandBook\\HandBook\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HandBook\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-12T12:43:03.174Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

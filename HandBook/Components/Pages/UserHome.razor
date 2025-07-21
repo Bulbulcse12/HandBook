@@ -1,0 +1,371 @@
+﻿@page "/userhome"
+@inject NavigationManager NavigationManager
+
+<style>
+    :root {
+        --safe-area-inset-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -270px;
+        width: 250px;
+        height: 100%;
+        background-color: #f1f5f9;
+        box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+        z-index: 1100;
+        padding: 1rem;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .sidebar.open {
+        left: 0;
+    }
+
+    .sidebar-header {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .sidebar-header img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
+    }
+
+    .sidebar-section {
+        margin-top: 1rem;
+    }
+
+    .sidebar-section h4 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+        color: #334155;
+    }
+
+    .sidebar-section ul {
+        list-style: none;
+        padding-left: 1rem;
+        margin: 0;
+    }
+
+    .sidebar-section li {
+        padding: 0.4rem 0;
+        cursor: pointer;
+        color: #1e293b;
+    }
+
+    .sidebar-section li:hover {
+        text-decoration: underline;
+    }
+
+    .submenu {
+        padding-left: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .header {
+        background-color: #f8f8f8;
+        padding: 1rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .header-left small {
+        font-weight: normal;
+        font-size: 0.85rem;
+    }
+
+    .header-right i {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .summary-box {
+        background-color: #1f2a3a;
+        color: white;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .summary-box h2 {
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+    }
+
+    .summary-values {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .summary-values > div {
+        background-color: #334155;
+        border-radius: 8px;
+        padding: 0.5rem;
+        color: white;
+    }
+
+    .grid-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        padding-bottom: 90px;
+    }
+
+    .grid-icons div {
+        background: #f1f5f9;
+        border-radius: 0.75rem;
+        border: 1px solid #cbd5e1;
+        padding: 0.6rem 0.3rem;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+        text-align: center;
+    }
+
+    .grid-icons div:hover {
+        transform: scale(1.03);
+    }
+
+    .grid-icons img {
+        height: 36px;
+        margin-bottom: 0.3rem;
+    }
+
+    .bottom-menu {
+        background-color: #0f172a;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.8rem 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        font-size: 0.9rem;
+        z-index: 1000;
+        padding-bottom: calc(0.8rem + var(--safe-area-inset-bottom));
+    }
+
+    .bottom-menu div {
+        text-align: center;
+        flex: 1;
+        cursor: pointer;
+    }
+
+    @@media (max-width: 360px) {
+        .header {
+            font-size: 0.95rem;
+        }
+
+        .summary-box h2 {
+            font-size: 1.1rem;
+        }
+
+        .summary-values {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .grid-icons {
+            gap: 0.6rem;
+        }
+
+        .grid-icons img {
+            height: 28px;
+        }
+    }
+
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+        .overlay.hidden {
+            display: none;
+        }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -270px;
+        width: 250px;
+        height: 100%;
+        background-color: #f1f5f9;
+        box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+        z-index: 1100;
+        padding: 1rem;
+        transition: left 0.3s ease-in-out;
+    }
+
+        .sidebar.open {
+            left: 0;
+        }
+</style>
+
+<!-- Overlay -->
+@if (isSidebarOpen)
+{
+    <div class="overlay" @onclick="CloseSidebar"></div>
+}
+
+<!-- Sidebar -->
+<div class="sidebar @(isSidebarOpen ? "open" : "")">
+    <div class="sidebar-header">
+        <img src="/images/handbook.png" alt="Company" />
+        <h4>Hardware Solution</h4>
+        <p>01712345678</p>
+    </div>
+    <div class="sidebar-section">
+        <h4>📁 মেনু</h4>
+        <ul>
+            <li @onclick="@(() => NavigateAndCloseSidebar("/userhome"))">🏠 হোম</li>
+            <li>📦 পণ্যসমূহ</li>
+            <ul class="submenu">
+                <li @onclick="@(() => NavigateAndCloseSidebar("/Product"))">পণ্য</li>
+                <li @onclick="@(() => NavigateAndCloseSidebar("/Category"))">ক্যাটেগরি</li>
+                <li @onclick="@(() => NavigateAndCloseSidebar("/Unit"))">ইউনিট</li>
+                <li @onclick="@(() => NavigateAndCloseSidebar("/Discount"))">ডিসকাউন্ট</li>
+            </ul>
+        </ul>
+    </div>
+</div>
+
+<!-- Header -->
+<div class="header">
+    <div class="header-left">
+        Hardware Solution<br />
+        <small>১৯ জুলাই ২০২৫</small>
+    </div>
+    <div class="header-right">
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-cog"></i>
+    </div>
+</div>
+
+<!-- Summary -->
+<div class="summary-box">
+    <div>আজকের লেনদেন</div>
+    <h2>১১,৩২০/=</h2>
+    <div class="summary-values">
+        <div>
+            <div>আয়</div>
+            <div>১,২০০/=</div>
+        </div>
+        <div>
+            <div>ব্যয়</div>
+            <div>৩০০/=</div>
+        </div>
+        <div>
+            <div>বাকি</div>
+            <div>২,০৫০/=</div>
+        </div>
+        <div>
+            <div>মোট</div>
+            <div>৪,০৫০/=</div>
+        </div>
+    </div>
+</div>
+
+<!-- Grid Menu -->
+<div class="grid-icons">
+    <div @onclick="NavigateToAddProduct">
+        <img src="/icons/stock.png" /><br />স্টক
+    </div>
+    <div>
+        <img src="/icons/sell.png" /><br />ক্রয়
+    </div>
+    <div>
+        <img src="/icons/purchase.png" /><br />বিক্রয়
+    </div>
+    <div>
+        <img src="/icons/debt_in.png" /><br />বাকির খাতা
+    </div>
+    <div>
+        <img src="/icons/debt_out.png" /><br />পাওনার খাতা
+    </div>
+    <div>
+        <img src="/icons/loan_out.png" /><br />ধারের খাতা
+    </div>
+    <div>
+        <img src="/icons/customers.png" /><br />গ্রাহক তালিকা
+    </div>
+    <div>
+        <img src="/icons/suppliers.png" /><br />সরবরাহকারী তালিকা
+    </div>
+    <div>
+        <img src="/icons/credit_book.png" /><br />ঋণের খাতা
+    </div>
+    <div>
+        <img src="/icons/alert.png" /><br />স্টক এলার্ট
+    </div>
+    <div>
+        <img src="/icons/sms.png" /><br />টপআপ প্যকেজ
+    </div>
+    <div>
+        <img src="/icons/notification.png" /><br />যোগাযোগ
+    </div>
+</div>
+
+<!-- Bottom Menu -->
+<div class="bottom-menu">
+    <div @onclick="ToggleSidebar">মেনু</div>
+    <div @onclick="@(() => NavigationManager.NavigateTo("/projects"))">প্রজেক্ট</div>
+    <div @onclick="@(() => NavigationManager.NavigateTo("/tutorials"))">টিউটোরিয়াল</div>
+    <div @onclick="@(() => NavigationManager.NavigateTo("/account"))">একাউন্ট</div>
+</div>
+
+@code {
+    private bool isSidebarOpen = false;
+
+    private void ToggleSidebar()
+    {
+        isSidebarOpen = !isSidebarOpen;
+    }
+
+    private void CloseSidebar()
+    {
+        isSidebarOpen = false;
+    }
+
+    private void NavigateAndCloseSidebar(string url)
+    {
+        isSidebarOpen = false;
+        NavigationManager.NavigateTo(url);
+    }
+
+    private void NavigateToAddProduct()
+    {
+        NavigationManager.NavigateTo("/Product/AddProduct");
+    }
+}

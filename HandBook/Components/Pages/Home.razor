@@ -1,0 +1,42 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<br />
+<br />
+<br />
+<div class="auth-container">
+    <div class="auth-header">
+        <img src="images/logo.png" alt="HandBook Logo" class="logo" />
+        <br />
+        <h2 style="color:#CCAD00;font-size:14px;">ব্যাবহার শুরু করুন </h2>
+        <p style="font-weight:bold;font-size:12px;">ব্যাবহার শুরু করতে  বা লগইন করতে মোবাইল নম্বর  দিন </p>
+    </div>
+
+      <div class="input-group" style="margin-bottom: 20px;">
+            <input type="tel" 
+                   placeholder="ফোন নম্বর দিন " 
+                   style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;"
+                   @bind="phoneNumber" />
+        </div>
+
+        <button style="width: 100%; padding: 10px; background-color: #CCAD00; color: black; border: none; border-radius: 4px; font-weight: bold;"
+                @onclick="ContinueToVerification">
+            পরবর্তী 
+        </button>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <span>ইতোমধ্যে অ্যাকাউন্ট আছে? </span>
+            <a href="/login" style="color: #CCAD00;">প্রবেশ করুন</a>
+        </div>
+</div>
+
+@code {
+    private string phoneNumber = "";
+
+    private void ContinueToVerification()
+    {
+        // In a real app, this would call your API
+        // For UI-only, we'll just navigate
+        NavigationManager.NavigateTo("/verify");
+    }
+}

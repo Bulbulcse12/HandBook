@@ -1,0 +1,67 @@
+﻿@page "/register"
+@inject NavigationManager NavigationManager
+
+<div class="auth-container">
+    <div class="auth-header">
+        <img src="images/logo.png" alt="HandBook Logo" class="logo" />
+        <h2 style="color:#CCAD00;font-size:14px;">একাউন্ট তৈরি করুন </h2>
+    </div>
+    <br />
+    <div class="">
+        @* <div class="avatar-upload">
+            <img src="images/default-avatar.png" alt="Profile" class="avatar-preview" />
+            <button class="upload-button">Upload Photo</button>
+        </div> *@
+
+       <div class="form-group">
+            <label style="font-weight:bold;">পূর্ণ নাম<span class="required-star">*</span></label>
+            <input type="text" class="form-input" placeholder="আপনার পূর্ণ নাম লিখুন" />
+        </div>
+
+        <div class="form-group">
+            <label style="font-weight:bold;">ফোন নম্বর<span class="required-star">*</span></label>
+            <input type="tel" class="form-input" value="@phoneNumber" disabled />
+        </div>
+
+        <div class="form-group">
+            <label style="font-weight:bold;">ইমেইল</label>
+            <input type="email" class="form-input" placeholder="আপনার ইমেইল লিখুন" />
+        </div>
+
+        <div class="form-group">
+            <label style="font-weight:bold;">পাসওয়ার্ড<span class="required-star">*</span></label>
+            <input type="password" class="form-input" placeholder="••••••••" />
+        </div>
+
+        <div class="form-group">
+            <label style="font-weight:bold;">প্রতিষ্ঠানের নাম<span class="required-star">*</span></label>
+            <input style="" type="text" class="form-input" placeholder="আপনার প্রতিষ্ঠানের নাম" />
+        </div>
+
+        <div class="form-group">
+            <label style="font-weight:bold;">ঠিকানা<span class="required-star">*</span></label>
+            <input type="text" class="form-input" placeholder="আপনার প্রতিষ্ঠানের ঠিকানা" />
+        </div>
+
+        <div class="form-group">
+            <label style="color: red;">ছবি আপলোড করুন(*)</label>
+            <input type="file" class="form-input" accept="image/*" />
+        </div>
+
+        <button style="width: 100%; padding: 10px; background-color: #CCAD00; color: black; border: none; border-radius: 4px; font-weight: bold;" @onclick="CompleteRegistration">
+            পরবর্তী
+        </button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string phoneNumber { get; set; } = "01739643886";
+
+    private void CompleteRegistration()
+    {
+        // Would submit to your API
+        NavigationManager.NavigateTo("/login");
+    }
+}

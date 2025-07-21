@@ -1,0 +1,276 @@
+﻿@page "/Product/AddProduct"
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-bar {
+        background-color: #f1f1f1;
+        padding: 12px 20px;
+        font-size: 14px;
+        color: #000;
+    }
+
+        .top-bar span {
+            color: #d1a602;
+        }
+
+    .form-section {
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-input, select {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .required-star {
+        color: red;
+    }
+
+    .bottom-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0f172a;
+        z-index: 999;
+    }
+
+        .bottom-bar button {
+            height: 100%;
+            width: 50%;
+            border: none;
+            font-size: 16px;
+            color: white;
+        }
+
+    .btn-save {
+        background-color: transparent;
+    }
+
+    .btn-tutorial {
+        background-color: #d1a602;
+    }
+
+    .page-wrapper {
+        padding-bottom: 70px; /* to avoid bottom bar overlap */
+    }
+
+    input[type="file"] {
+        padding: 7px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .modal-box {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        width: 90%;
+        max-width: 400px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .modal-box h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .modal-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .modal-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .modal-btn.cancel {
+        background-color: #6c757d;
+        color: white;
+    }
+
+    .modal-btn.save {
+        background-color: #d1a602;
+        color: white;
+    }
+</style>
+
+<div class="page-wrapper">
+    <!-- 🔼 Top Navigation -->
+    <div class="top-bar">
+        <span>হোম</span> / <strong>পণ্য যুক্ত করুন</strong>
+    </div>
+
+    <!-- 🧾 Form Area -->
+    <div class="form-section">
+        <div class="form-group">
+            <label>পণ্যের নাম <span class="required-star">*</span></label>
+            <input type="text" class="form-input" placeholder="পণ্যের নাম লিখুন" />
+        </div>
+
+        <div class="form-group">
+            <label>বর্তমান মজুত সংখ্যা <span class="required-star">*</span></label>
+            <input type="number" class="form-input" />
+        </div>
+
+        <div class="form-group">
+            <label>ক্রয় মূল্য</label>
+            <input type="number" class="form-input" />
+        </div>
+
+        <div class="form-group">
+            <label>বিক্রয় মূল্য <span class="required-star">*</span></label>
+            <input type="number" class="form-input" />
+        </div>
+
+        <!-- ক্যাটাগরি Field -->
+        <div class="form-group">
+            <label>ক্যাটাগরি (<a href="javascript:void(0)" @onclick="OpenCategoryModal">নতুন ক্যাটাগরি তৈরি করুন</a>)</label>
+            <select class="form-input">
+                <option>ক্যাটাগরি বাছাই করুন</option>
+            </select>
+        </div>
+
+        <!-- একক Field -->
+        <div class="form-group">
+            <label>পণ্যের একক (<a href="javascript:void(0)" @onclick="OpenUnitModal">নতুন একক তৈরি করুন</a>)</label>
+            <select class="form-input">
+                <option>একক বাছাই করুন</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <label>ডিসকাউন্ট/ভ্যাট পরিমাণ</label>
+            <div style="display: flex; gap: 10px;">
+                <input type="number" class="form-input" placeholder="পরিমাণ" style="flex: 1;" />
+                <select class="form-input" style="width: 80px;">
+                    <option>%</option>
+                    <option>৳</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>পণ্যের ছবি যোগ করুন</label>
+            <input type="file" class="form-input" />
+        </div>
+
+        <div class="form-group">
+            <label>বর্ণনা যোগ করুন</label>
+            <input type="text" class="form-input" />
+        </div>
+
+        <div class="form-group">
+            <label>বারকোড যোগ করুন</label>
+            <input type="text" class="form-input" />
+        </div>
+    </div>
+</div>
+
+<!-- 🔽 Fixed Bottom Button Section -->
+<div class="bottom-bar">
+    <button class="btn-save">সেভ করুন</button>
+    <button class="btn-tutorial">টিউটোরিয়াল</button>
+</div>
+
+
+<!-- 🔽 Modal Popups -->
+@if (showCategoryModal)
+{
+    <div class="modal-overlay">
+        <div class="modal-box">
+            <h3>নতুন ক্যাটাগরি</h3>
+            <input class="form-input" @bind="newCategoryName" placeholder="ক্যাটাগরি নাম লিখুন" />
+            <div class="modal-actions">
+                <button class="modal-btn cancel" @onclick="CancelModal">বাতিল</button>
+                <button class="modal-btn save" @onclick="SaveCategory">সেভ করুন</button>
+            </div>
+        </div>
+    </div>
+}
+
+@if (showUnitModal)
+{
+    <div class="modal-overlay">
+        <div class="modal-box">
+            <h3>নতুন একক</h3>
+            <input class="form-input" @bind="newUnitName" placeholder="একক নাম লিখুন" />
+            <div class="modal-actions">
+                <button class="modal-btn cancel" @onclick="CancelModal">বাতিল</button>
+                <button class="modal-btn save" @onclick="SaveUnit">সেভ করুন</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool showCategoryModal = false;
+    private bool showUnitModal = false;
+
+    private string newCategoryName = string.Empty;
+    private string newUnitName = string.Empty;
+
+    void OpenCategoryModal() => showCategoryModal = true;
+    void OpenUnitModal() => showUnitModal = true;
+
+    void SaveCategory()
+    {
+        // TODO: Save logic here (e.g. add to DB or dropdown list)
+        Console.WriteLine($"New Category: {newCategoryName}");
+        newCategoryName = string.Empty;
+        showCategoryModal = false;
+    }
+
+    void SaveUnit()
+    {
+        // TODO: Save logic here (e.g. add to DB or dropdown list)
+        Console.WriteLine($"New Unit: {newUnitName}");
+        newUnitName = string.Empty;
+        showUnitModal = false;
+    }
+
+    void CancelModal()
+    {
+        newCategoryName = string.Empty;
+        newUnitName = string.Empty;
+        showCategoryModal = false;
+        showUnitModal = false;
+    }
+}

@@ -1,0 +1,136 @@
+﻿/* Base Styles */
+.auth-container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+    .auth-header h1 {
+        font-size: 24px;
+        color: #333;
+        margin: 10px 0 5px;
+    }
+
+    .auth-header p {
+        color: #666;
+        font-size: 14px;
+    }
+
+.required-star {
+    color: red;
+    margin-left: 4px;
+}
+
+.logo {
+    width: 300px;
+    height: 120px;
+    object-fit: contain;
+}
+
+/* Card Styles */
+.auth-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #555;
+    }
+
+.form-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-group {
+    border: 1px solid #000000;
+}
+/* Buttons */
+.primary-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4F46E5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+    .primary-button:hover {
+        background-color: #4338CA;
+    }
+
+/* Verification Code */
+.verification-code-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.code-input {
+    width: 45px;
+    height: 55px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Avatar Upload */
+.avatar-upload {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar-preview {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+}
+
+.upload-button {
+    display: block;
+    margin: 10px auto 0;
+    background: none;
+    border: none;
+    color: #4F46E5;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Footer Links */
+.auth-footer, .resend-code {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+    .auth-footer a, .resend-code a {
+        color: #4F46E5;
+        text-decoration: none;
+        margin-left: 5px;
+    }

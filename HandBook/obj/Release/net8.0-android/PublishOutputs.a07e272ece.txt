@@ -1,0 +1,4 @@
+E:\AppDev\HandBook\updated\HandBook-main\HandBook-main\HandBook\bin\Release\net8.0-android\publish\com.companyname.handbook-Signed.aab
+E:\AppDev\HandBook\updated\HandBook-main\HandBook-main\HandBook\bin\Release\net8.0-android\publish\com.companyname.handbook.aab
+E:\AppDev\HandBook\updated\HandBook-main\HandBook-main\HandBook\bin\Release\net8.0-android\publish\com.companyname.handbook-Signed.apk
+E:\AppDev\HandBook\updated\HandBook-main\HandBook-main\HandBook\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll
